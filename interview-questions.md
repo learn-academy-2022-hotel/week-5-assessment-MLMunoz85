@@ -26,9 +26,9 @@ Researched answer: A relational database or a relational database management sys
 
 4. What are primary keys? Why are they important?
 
-Your answer:
+Your answer: Primary keys or PK is the unique identifier for an object. It is important because let's say you have a bunch of objects called credit_cards, it might be hard to differentiate between all of them, especially if they contain the same data. But with the primary key you can differentiate between because each entry has its own unique primary key.
 
-Researched answer:
+Researched answer: In SQL databases, every table should have a primary key. The primary key (PK) is formed by one or several columns and is used to uniquely identify every record stored in the table. Maintaining data consistency is a critical task. One of the most common data consistency problems is duplicate records; thanks to their unique constraint, primary keys help prevent this. Let's say you have a bunch of duplicate records that are hard to differentiate between, primary keys make it possible to tell each record apart because each entry will have their own unique primary key.
 
 5. What are the HTTP verbs? What is each verb's corresponding CRUD action?
 
