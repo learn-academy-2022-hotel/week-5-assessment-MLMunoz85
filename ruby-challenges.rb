@@ -22,7 +22,9 @@ def does_include(array, letter)
     end
 end
 p does_include(beverages_array, letter_o)
+# output: ['coffee', 'soda water']
 p does_include(beverages_array, letter_t)
+# output: ['tea', 'water', 'soda water']
 
 
 # -------------------2) Create a method that takes in a hash and returns one array with all the hash values at their own index and in alphabetical order. No nested arrays. Use the test variable provided.
@@ -39,6 +41,7 @@ def sorted_states(array)
     array.values.flatten.sort { |a, b| a <=> b}
 end
 p sorted_states(us_states)
+# output: ['Arizona', 'California', 'Idaho', 'Maine', 'Nevada', 'New Hampshire', 'Oregon', 'Rhode Island', 'Washington']
 
 
 # --------------------3a) Create a class called Bike that is initialized with a model, wheels, and current_speed. The default number of wheels is 2. The current_speed should start at 0. Create a bike_info method that returns a sentence with all the data from the bike object.
